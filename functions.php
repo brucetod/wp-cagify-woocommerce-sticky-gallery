@@ -32,7 +32,7 @@ function wp_cgf_woocommerce_sticky_gallery_woocommerce_single_product_summary(){
     echo '<script type="text/javascript">';
     echo <<<EOF
     (function($){
-        $(".wp-cgf-woocommerce-sticky-gallery").find(".entry-summary").prev().css("position","sticky").css("top","0").css("z-index",9999);
+        $(".wp-cgf-woocommerce-sticky-gallery").find(".entry-summary").prev().css("position","sticky").css("top","0").css("z-index",10);
     })(jQuery);
 EOF;
     echo '</script>';
